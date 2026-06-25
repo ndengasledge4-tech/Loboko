@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
 
-      home: const SplashScreen(),
-      //home: const LoginAdminScreen(),
+      //home: const SplashScreen(),
+      home: const LoginAdminScreen(),
 
       routes: AppRoutes.routes,
     );
